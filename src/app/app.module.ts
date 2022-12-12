@@ -5,8 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { MaterialreferenceModule } from './materialreference/materialreference.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { UserModule } from './modules/user/user.module';
+import { BlogModule } from './modules/blog/blog.module';
+import { StudyModule } from './modules/study/study.module';
 
-const module=[UserModule,BrowserAnimationsModule,MaterialreferenceModule]
+const module=[UserModule,BlogModule,StudyModule,BrowserAnimationsModule,MaterialreferenceModule]
 
 
 

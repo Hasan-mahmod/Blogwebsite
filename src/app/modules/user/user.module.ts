@@ -8,6 +8,7 @@ import { RegisterComponent } from './register/register.component';
 import { ProfileComponent } from './profile/profile.component';
 import {MaterialreferenceModule} from '../../materialreference/materialreference.module';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -23,7 +24,8 @@ import { FormsModule } from '@angular/forms';
     CommonModule,
     UserRoutingModule,
     MaterialreferenceModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ]
 })
 export class UserModule { }
